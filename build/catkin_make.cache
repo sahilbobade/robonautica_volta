@@ -1,0 +1,2 @@
+volta_ws/src/volta/volta_base:volta_ws/src/volta/volta_control:volta_ws/src/volta/volta_description:volta_ws/src/volta/volta_localization:volta_ws/src/volta/volta_msgs:volta_ws/src/volta/volta_navigation:volta_ws/src/volta/volta_rules:volta_ws/src/volta/volta_teleoperator:volta_ws/src/volta_simulation:volta_ws/src/yolo_detection
+-DCATKIN_DEVEL_PREFIX=/home/guest/volta_new/devel -DCMAKE_INSTALL_PREFIX=/home/guest/volta_new/install -G Unix Makefiles

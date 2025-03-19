@@ -1,0 +1,8 @@
+prefix=/home/guest/volta_new/devel
+
+Name: volta_msgs
+Description: Description of volta_msgs
+Version: 1.1.1
+Cflags: -I/home/guest/volta_new/devel/include
+Libs: -L${prefix}/lib 
+Requires: 
