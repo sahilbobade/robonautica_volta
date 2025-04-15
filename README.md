@@ -7,7 +7,7 @@ This ROS package implements a **vision-based leader-follower system** using ArUc
 ## 🧠 Features
 
 - ArUco marker detection using OpenCV
-- Pose estimation with `cv2.solvePnP` or `cv2.aruco.estimatePoseSingleMarkers`
+- Pose estimation
 - PD controller for smooth and stable following behavior
 - Real-time command publishing to `/cmd_vel`
 - Live visualization of camera feed with marker and pose axes
@@ -18,7 +18,7 @@ This ROS package implements a **vision-based leader-follower system** using ArUc
 
 - Python 3
 - ROS (tested with ROS Noetic)
-- OpenCV (with `cv2.aruco` module)
+- OpenCV 
 - `cv_bridge`
 - `sensor_msgs`
 - `geometry_msgs`
@@ -31,7 +31,7 @@ This ROS package implements a **vision-based leader-follower system** using ArUc
 
 ```bash
 cd ~/catkin_ws/src
-git clone https://github.com/your-username/vision-based-leader-follower.git
+git clone https://github.com/sahilbobade/robonautica_volta.git
 cd ~/catkin_ws
 catkin_make
 ```
@@ -55,7 +55,7 @@ rosrun usb_cam usb_cam_node
 2. Run the ArUco follower node:
 
 ```bash
-rosrun vision_based_leader_follower aruco_follower.py
+rosrun vision_based_leader_follower follower_node.py
 ```
 
 3. A window will display the live camera feed with detected ArUco markers and pose estimation.
