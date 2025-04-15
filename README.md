@@ -1,6 +1,3 @@
-Sure! Here's the full markdown text you can copy and paste into your `README.md` file:
-
-```markdown
 # Vision-Based Leader-Follower System using ArUco Markers
 
 This ROS package implements a **vision-based leader-follower system** using ArUco marker tracking and a Proportional-Derivative (PD) controller. The system uses camera input to detect an ArUco marker and control a robot to follow the marker by adjusting its linear and angular velocities.
